@@ -1,0 +1,39 @@
+.works {
+  background-color: $primary-white-color;
+  padding-bottom: 94px;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $primary-text-color;
+  margin-bottom: 50px;
+}
+
+.works-list {
+  @extend .list-flex;
+}
+
+.works-item {
+  margin: 15px;
+  position: relative;
+}
+
+.works-text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $primary-white-color;
+  background-color: rgba(47, 48, 58, 0.8);
+  padding: 27px 81px;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
